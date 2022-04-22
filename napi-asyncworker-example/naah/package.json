@@ -1,0 +1,14 @@
+{
+  "name": "naah-asyncworker-example",
+  "description": "An example project showing how to use the Node.js Node-API AsyncWorker class",
+  "version": "1.0.0",
+  "main": "test/Test.js",
+  "dependencies": {
+    "node-addon-api-helper": "^1.0.0"
+  },
+  "scripts": {
+    "test": "node --napi-modules ./test/Test.js"
+  },
+  "private": true,
+  "gypfile": true
+}
